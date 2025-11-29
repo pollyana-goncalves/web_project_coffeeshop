@@ -61,16 +61,13 @@ p {
   color: #2f80ed;
 }
 
-.header__content {
-}
-
 .header__title {
   font-size: 58px;
   line-height: 72px;
   max-width: 709px;
   letter-spacing: 1px;
-  /* padding-left: 80px; ja aplicado no header retirar*/
   padding-top: 183px;
+  /* padding-left: 80px; ja aplicado no header retirar*/
 }
 
 .span-accent {

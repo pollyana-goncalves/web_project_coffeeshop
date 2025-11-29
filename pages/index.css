@@ -1,3 +1,8 @@
+h1,
+h2,
+p {
+  margin: 0;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -33,16 +38,16 @@
   width: 105px;
   height: 39px;
   position: relative;
-  margin-top: 30px;
-  margin-left: 30px;
+  /* margin-top: 30px;ja aplicado no header retirar */
+  margin-left: -50px;
 }
 
 .nav__links {
   list-style-type: none;
   display: flex;
-  margin-top: 30px;
+  /* margin-top: 30px;
   margin-right: 80px;
-  margin-left: 30px;
+  margin-left: 30px; ja aplicado no header retirar*/
   column-gap: 20px;
 }
 
@@ -64,7 +69,7 @@
   line-height: 72px;
   max-width: 709px;
   letter-spacing: 1px;
-  padding-left: 80px;
+  /* padding-left: 80px; ja aplicado no header retirar*/
   padding-top: 183px;
 }
 
@@ -84,7 +89,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 28px;
-  padding-left: 80px;
+  /* padding-left: 80px;ja aplicado no header retirar */
   max-width: 683px;
 }
 
@@ -102,9 +107,7 @@
   align-items: flex-end;
   color: #838383;
   margin-top: auto;
-  padding-left: 80px;
-  /* padding-right: 80px;
-  padding-bottom: 40px; fica deslocado*/
+  /* padding-left: 80px; ja aplicado no header retirar*/
 }
 
 .content {

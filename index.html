@@ -104,7 +104,62 @@
               <p class="recipes__videos-caption">Receita de Prensa Francesa</p>
             </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h1 class="reservation__title">Reservar uma mesa</h1>
+          <div class="reservation__form">
+            <form class="form">
+              <label class="form__label" for="nome">Nome *</label>
+              <input
+                type="text"
+                class="form__input"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="Nome"
+                id="nome"
+              />
+              <label class="form__label" for="number">Número de convidados *</label>
+              <input
+                type="number"
+                class="form__input"
+                minlength="1"
+                maxlength="8"
+                required
+                placeholder="1-8"
+                id="number"
+              />
+              <label class="form__label" for="data">Data e hora *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                required
+                id="data"
+              />
+              <label class="form__label" for="email">Seu e-mail *</label>
+              <input
+                type="email"
+                class="form__input"
+                minlength="6"
+                maxlength="20"
+                required
+                placeholder="email@email.com"
+                id="email"
+              />
+              <button
+              type="submit"
+              class="form__button form__button--submit"
+            >
+              Reservar uma mesa
+              </button>
+              <div class="form__checkbox">
+                <input type="checkbox" id="termos"
+                required
+                class="form__checkbox-input" />
+                Eu concordo com os termos de uso
+              </div>
+            </form>
+          </div>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>

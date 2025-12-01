@@ -107,19 +107,20 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
             <form class="reservation__form form">
-              <div class="form__fieldset">
-                <label class="form__label" for="nome">Nome *</label>
-                <input
-                  type="text"
-                  class="form__input"
-                  minlength="3"
-                  maxlength="20"
-                  required
-                  placeholder="Nome"
-                  id="nome"
-                />
-                <label class="form__label" for="number">Número de convidados *</label>
-                <input
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="nome">Nome *
+                  <input
+                    type="text"
+                    class="form__input"
+                    minlength="3"
+                    maxlength="20"
+                    required
+                    placeholder="Nome"
+                    id="nome"
+                  />
+                </label>
+                <label class="form__label" for="number">Número de convidados *
+                  <input
                   type="number"
                   class="form__input"
                   minlength="1"
@@ -128,15 +129,19 @@
                   placeholder="1-8"
                   id="number"
                 />
-                <label class="form__label" for="data">Data e hora *</label>
-                <input
+                </label>
+
+                <label class="form__label" for="data">Data e hora *
+                  <input
                   type="datetime-local"
                   class="form__input"
                   required
                   id="data"
                 />
-                <label class="form__label" for="email">Seu e-mail *</label>
-                <input
+                </label>
+
+                <label class="form__label" for="email">Seu e-mail *
+                  <input
                   type="email"
                   class="form__input"
                   minlength="6"
@@ -145,19 +150,21 @@
                   placeholder="email@email.com"
                   id="email"
                 />
-              </div>
+                </label>
+
+              </fieldset>
               <button
               type="submit"
               class="form__button form__button-submit"
             >
               Reservar uma mesa
               </button>
-              <div class="form__checkbox">
+              <label class="form__checkbox" for="termos">
+                Eu concordo com os termos de uso
                 <input type="checkbox" id="termos"
                 required
                 class="form__checkbox-input" />
-                Eu concordo com os termos de uso
-              </div>
+              </label>
             </form>
 
         </section>

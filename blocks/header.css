@@ -23,7 +23,7 @@
   /* padding-left: 80px; ja aplicado no header retirar*/
 }
 
-.span-accent {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
